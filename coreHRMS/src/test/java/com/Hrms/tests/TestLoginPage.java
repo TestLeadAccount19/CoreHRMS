@@ -17,6 +17,9 @@ public class TestLoginPage extends BasePage{
 	public void verifyLoginPage() throws Exception {
 		
 		System.out.println("Welcome to github");
+		System.out.println("Welcome to git");
+		System.out.println("verified github Login successfully");
+		
 			
 	loginPage.login();
 	CommonUtils.hardWait(5);

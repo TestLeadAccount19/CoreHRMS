@@ -15,6 +15,8 @@ public class TestLoginPage extends BasePage{
 	
 	@Test(description="verify LoginPage",priority=0)
 	public void verifyLoginPage() throws Exception {
+		
+		System.out.println("Welcome to github");
 			
 	loginPage.login();
 	CommonUtils.hardWait(5);
